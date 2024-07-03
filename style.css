@@ -1,28 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: ;
 }
 
 .my_section{
-    background: #71ce68;
+width: ;
+display: ;
+padding: 20px;
 
 }
+
 .my_section_details{
-    padding: 35px;
-    
-    color: aliceblue;
-    width: 50%;
+    width: ;
+    background-color: #94c7df;
+    display: inline;
+
+}
+.my_section_details h2{
+
 }
 .my_section_details h5{
-    padding-left: 100px;
-    color: rgb(52, 15, 216);
-    padding-top: 10px;
+
+}
+
+.my_section_details q{
+
 }
 
 
-.
+.my_section_photo{
+    width: ;
+    background-color: #2194c9;
+    display: inline;
 
+
+}
+
+.my_section_photo img{
+
+}
 
 
 
