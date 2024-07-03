@@ -1,5 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+.my_section{
+    background: #71ce68;
+
+}
+.my_section_details{
+    padding: 35px;
+    
+    color: aliceblue;
+    width: 50%;
+}
+.my_section_details h5{
+    padding-left: 100px;
+    color: rgb(52, 15, 216);
+    padding-top: 10px;
+}
 
 
+.
 
 
 
