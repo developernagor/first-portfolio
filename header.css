@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* logo style  start*/
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 177, 215);
+    font-weight: 700;
+
+}
+.logo{
+    width: 20%;
+    /* text-align: center; */
+}
+
+.logo a{
+    text-decoration: none;
+    
+}
+.p{color: purple;font-size: 25px;} .o{color: orange;font-size: 25px;} .r{color: rebeccapurple;font-size: 25px;}.t{color: tomato;font-size: 25px;} .f{color: fuchsia;font-size: 25px;} .l{color: lawngreen;font-size: 25px;}.i{color: indigo;font-size: 25px;} 
+
+
+
+/* menu style */
+.nav{
+    width: 70%;
+    /* margin-left: 200px; */
+    /* text-align: center; */
+}
+
+.nav > ul{
+    display: flex;
+    margin: 0 100px;
+}
+
+.nav li{
+    list-style: none;
+    padding: 5px 40px;
+}
+.nav li:hover{
+    background-color: rgb(30, 43, 221);
+    border-radius: 5px;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*  */
+/* dropdown menu style */
+.nav li .dropdown{
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+}
+.nav li:hover > .dropdown{
+    display: block;
+    margin-top: 5px;
+    
+}
+
+.nav li .dropdown{
+    color: #fff;
+    background-color: rgb(89, 177, 215);
+    
+}
+.nav li .dropdown li{
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.hire_me_btn{
+    /* border-radius: 10px; */
+}
+.hire_me_btn a{
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.hire_me_btn a:hover{
+    color: #fff;
+    background-color: rgb(30, 43, 221);
+    border-radius: 5px;
+}
+
+
+
+/* .nav ul li{
+    display: inline;
+    padding: 5px 10px;
+    
+
+.nav li:hover{
+    background-color: #4c4848;
+}
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    /* position: absolute; */
+
+}
+.nav a:hover{
+    color: red;
+    background-color: #000000;
+    padding: 5px 10px;
+   
+} */
